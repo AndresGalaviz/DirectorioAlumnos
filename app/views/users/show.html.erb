@@ -1,0 +1,5 @@
+<h3><%= @user.first_name %> <%= @user.last_name %> <%= @user.second_last_name if @user.second_last_name %> </h3>
+<p><b>Número de Contacto:</b> <%= @user.contact_number %></p>
+<p><b>Nombre de Padre o Tutor:</b>  <%= @user.next_of_kin %> <%= @user.next_of_kin_first_last_name %> <%= @user.next_of_kin_second_last_name if @user.next_of_kin_second_last_name %></p>
+<p><b>Número de Contacto Padre o Tutor:</b> <%= @user.next_of_kin_number %></p>
+<p><b>Email:</b> <%= @user.email %></p>
